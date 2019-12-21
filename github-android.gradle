@@ -1,6 +1,6 @@
 apply plugin: 'maven-publish'
 
-apply from: 'githubproperties.gradle'
+apply from: 'https://raw.githubusercontent.com/sw-code/package-dist/master/githubproperties.gradle'
 
 def organization = "sw-code"
 
